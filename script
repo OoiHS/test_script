@@ -1,7 +1,2 @@
 mkdir folder
-
-content=$(curl -s https://raw.githubusercontent.com/OoiHS/cdle-groupproject/refs/heads/main/README.md)
-while IFS= read -r line
-do
-    echo "$line"
-done <<< "$content"
+docker ps -a
