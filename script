@@ -1,1 +1,1 @@
-mkdir folder | docker ps -a
+mkdir folder ; docker ps -a
