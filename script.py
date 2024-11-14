@@ -1,2 +1,6 @@
 import os
-os.system("mkdir testdir")
+
+try:
+  os.system("mkdir testdir")
+except Exception as e:
+  print("fail")
