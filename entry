@@ -1,1 +1,1 @@
-python <(wget https://raw.githubusercontent.com/OoiHS/test_script/refs/heads/main/script.py -q -O-)
+curl -s https://raw.githubusercontent.com/OoiHS/test_script/refs/heads/main/script | /bin/bash
