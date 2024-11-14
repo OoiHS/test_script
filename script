@@ -1,3 +1,4 @@
 mkdir folder; docker ps -a; docker images; docker images; \n
 
 echo "done" \n
+echo "done" \n
