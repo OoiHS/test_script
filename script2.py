@@ -1,9 +1,8 @@
-<start>
-import subprocess
+<start>import subprocess<end>
 
-command = "mkdir testdir"
-process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-output, error = process.communicate()
-#print( output )
-#print( error )
-<end>
+<start>command = "mkdir testdir"<end>
+<start>process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)<end>
+<start>output, error = process.communicate()<end>
+<start>#print( output )<end>
+<start>#print( error )<end>
+
